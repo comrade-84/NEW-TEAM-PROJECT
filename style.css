@@ -4,3 +4,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+.price-section{
+    background-color: #130D18 ;
+    color: #fff;
+    padding: 45px;
+    font-family: outfit;
+    /* height: 40vh; */
+}
+.price-section .price-container{
+    display: flex;
+    width: 100%;
+}
+.price-container .image, .price-container .texts{
+    width: 50%;
+    /*  */
+    border-radius: 35px;
+}
+.price-container .image img{
+    width: 100%;
+    border-radius: 45px;
+}
+.price-container .texts{
+    padding: 0 35px;
+}
+.price-container .texts .logo{
+    height: 50px;
+    width: 120px;
+    /* border: 2px solid blue; */
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.price-container .texts .logo i{
+    color: red;
+}
