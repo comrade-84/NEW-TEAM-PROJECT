@@ -10,8 +10,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(83, 51, 113);
-    margin: 20px auto;
-    width: 90%;
+    margin: 0px auto;
+    width: 100%;
     text-align: center;
     color: #fff;
 }
@@ -68,12 +68,10 @@
     border-radius: 45px;
     height: 550px;
 }
-.price-container .texts{
-    /* padding: 0 35px; */
-}
+
 .price-container .texts .logo{
     height: 50px;
-    width: 120px;
+    width: 120px; 
     /* border: 2px solid blue; */
     font-size: 30px;
     display: flex;
