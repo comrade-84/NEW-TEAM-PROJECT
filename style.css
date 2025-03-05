@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(83, 51, 113);
 }
 .help-section {
@@ -21,9 +24,11 @@ body {
     display: flex;
     margin: auto;
     width: 100%;
+    transform: skewX(-10deg);
 }
 .sub-con {
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
+    background-color: rgba(105, 84, 120, 0.313);
     width: 100%;
     padding: 30px;
     margin: 10px 10px 20px 10px;
