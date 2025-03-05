@@ -4,12 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
-.container{
+.contains{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(18, 12, 24);
     /* line-height: 1.6; */
+}
+
+.container{
      display: flex;
     gap: 80px;
     /* padding: 0 100px; */
