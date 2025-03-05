@@ -5,6 +5,46 @@
     box-sizing: border-box;
 }
 
+.help-section {
+    background-image: url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(83, 51, 113);
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+}
+.help-section h2 {
+    margin-bottom: 30px;
+}
+
+.container1 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    transform: skewX(-10deg);
+}
+.sub-con {
+    /* border: 2px solid red ; */
+    background-color: rgba(105, 84, 120, 0.313);
+    width: 100%;
+    padding: 30px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.sub-con h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sub-con p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.sub-con a {
+    text-decoration: none;
+}
 .price-section{
     background-color: #130D18 ;
     color: #fff;
@@ -244,4 +284,5 @@ strong {
 .logo #pub {
     width: 60%;
 }
+
 
