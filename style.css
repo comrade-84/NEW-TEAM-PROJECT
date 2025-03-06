@@ -51,6 +51,9 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(18, 12, 24);
     /* line-height: 1.6; */
+}
+
+.container{
      display: flex;
     gap: 80px;
     width: 95%;
@@ -113,6 +116,8 @@ p>span{
     padding-top: 20px;
 
 }
+
+
 .price-section{
     background-color: #130D18 ;
     color: #fff;
